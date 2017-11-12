@@ -42,7 +42,7 @@ var BugDispatch = {
         maxLargeTurnDeg: 150,
         maxSmallTurnDeg: 10,
         maxWiggleDeg: 5,
-        imageSprite: 'fly-sprite.png',
+        imageSprite: 'http://cdn.rawgit.com/Dev-Archsoft/momsodell/master/js/fly-sprite.png',
         bugWidth: 13,
         bugHeight: 14,
         num_frames: 5,
@@ -337,7 +337,7 @@ BugController.prototype = BugDispatch;
 
 var SpiderController = function() {
     var spiderOptions = {
-        imageSprite: 'spider-sprite.png',
+        imageSprite: 'http://cdn.rawgit.com/Dev-Archsoft/momsodell/master/js/spider-sprite.png',
         bugWidth: 69,
         bugHeight: 90,
         num_frames: 7,
