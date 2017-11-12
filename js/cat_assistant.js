@@ -1,11 +1,11 @@
 $(window).load(function() {
-    var sound_cat = $("#vote_cat_sound").get(0)
+    var sound_cat = $("#cat_assistant_sound").get(0)
       , is_audio_load = false;
     if (!isNaN(sound_cat.duration)) {
         is_audio_load = true;
         sound_cat.volume = 1.0;
     }
-    $('.vote_cat > a').hover(function() {
+    $('.cat_assistant > a').hover(function() {
         if (is_audio_load) {
             sound_cat.currentTime = 0;
             sound_cat.play();

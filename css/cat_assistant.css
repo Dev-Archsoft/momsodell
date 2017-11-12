@@ -1,4 +1,4 @@
-.vote_cat
+.cat_assistant
 {
     position: fixed;
     display: inline-block;
@@ -7,28 +7,28 @@
     width:127px;
 }
 
-.vote_cat > a
+.cat_assistant > a
 {
     text-decoration: none;
     display: block;
 }
 
-.vote_cat .bg
+.cat_assistant .bg
 {
     bottom:0;
     left:0;
     position: absolute;
-    background: url("vote_cat.png") no-repeat transparent;
+    background: url("https://github.com/Dev-Archsoft/momsodell/blob/master/img/cat_assistant.png?raw=true") no-repeat transparent;
 }
 
-.vote_cat .layer1
+.cat_assistant .layer1
 {
     width: 127px;
     height: 150px;
     background-position: 0 100%;
 }
 
-.vote_cat .layer2
+.cat_assistant .layer2
 {
     display: none;
     width: 127px;
@@ -36,7 +36,7 @@
     background-position: -126px 100%;
 }
 
-#vote_cat_sound
+#cat_assistant_sound
 {
     display:none;
 }
