@@ -1,42 +1,37 @@
-.cat_assistant
-{
-    position: fixed;
-    display: inline-block;
-    bottom:0;
-    left:0;
-    width:127px;
+.cat_assistant {
+	position: fixed;
+	display: inline-block;
+	bottom: 0;
+	right: 0;
+	width: 127px;
+	z-index:10000;
 }
-
-.cat_assistant > a
-{
-    text-decoration: none;
-    display: block;
+.cat_assistant > a {
+	text-decoration: none;
+	display: block;
+	width: 127px;
+	height: 239px;
+	overflow:hidden;
 }
-
-.cat_assistant .bg
-{
-    bottom:0;
-    left:0;
-    position: absolute;
-    background: url("https://github.com/Dev-Archsoft/momsodell/blob/master/img/cat_assistant.png?raw=true") no-repeat transparent;
+.cat_assistant .bg {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	background: url("http://cdn.rawgit.com/Dev-Archsoft/momsodell/master/img/cat_assistant.png") no-repeat transparent;
 }
-
-.cat_assistant .layer1
-{
-    width: 127px;
-    height: 150px;
-    background-position: 0 100%;
+.cat_assistant .bg.layer1 {
+	display:block;
+	width: 127px;
+	height: 239px;
+	background-position: 0 100%;
 }
-
-.cat_assistant .layer2
-{
-    display: none;
-    width: 127px;
-    height: 239px;
-    background-position: -126px 100%;
+.cat_assistant .bg.layer2 {
+	display:none;
+	width: 127px;
+	background-position:100% 0;
+	right:0;
+	height: 239px;
 }
-
-#cat_assistant_sound
-{
-    display:none;
+#cat_assistant_sound {
+	display: none;
 }
